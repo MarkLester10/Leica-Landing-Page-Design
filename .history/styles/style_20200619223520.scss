@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; //1rem = 10px
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: red;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem; //Logo
+  font-weight: lighter;
+  font-family: "Lobster", cursive;
+}
+
+h2 {
+}
+
+@import "home";

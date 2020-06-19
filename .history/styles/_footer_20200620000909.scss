@@ -1,0 +1,14 @@
+footer {
+  @extend nav;
+  background: rgb(22, 22, 22);
+  width: 100%;
+  ul {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    justify-content: space-between;
+  }
+  h1 {
+    flex: 3;
+  }
+}
